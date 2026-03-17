@@ -18,7 +18,7 @@ Ligger i `data/`:
 
 ---
 
-## Projektstruktur (kort)
+## Projektstruktur
 - `notebooks/1_EDA.ipynb`  
   Dataöversikt, target-fördelning, missing values och figurer.
 - `notebooks/2_Model_Comparison.ipynb`  
@@ -36,14 +36,14 @@ Ligger i `data/`:
 
 ---
 
-## Resultat (kort)
+## Resultat
 - Final modell: **Logistic Regression**
 - Vi sparar hela pipelinen (preprocessing + modell) i `models/final_model.joblib`
 - I drift använder vi **Top-X** för stabil och planeringsbar arbetsmängd
 
 ---
 
-## Hur man kör (snabbt)
+## Hur man kör
 
 ### 1) Installera dependencies
 ```bash
